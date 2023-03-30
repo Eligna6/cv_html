@@ -102,7 +102,11 @@ body {
   list-style: none;
   margin: 10px 0;
 }
-.contactInfo ul li .icon {
+.contactInfo ul li a {
+  text-decoration: none;
+  color: var(--just-white);
+}
+.contactInfo ul li .icon a {
   display: inline-block;
   width: 30px;
   font-size: 18px;
@@ -142,7 +146,7 @@ body {
   top: 0;
   left: 0;
   height: 100%;
-  background-color: var(--tomato);
+  background-color: var(--persian-red);
 }
 .container .right_side {
   position: relative;
@@ -178,7 +182,7 @@ p {
   font-weight: 600;
 }
 .about .box .year_company h5:nth-child(2) {
-    color: var(--tomato);
+    color: var(--persian-red);
 }
 .about .box .text h4 {
   text-transform: uppercase;
